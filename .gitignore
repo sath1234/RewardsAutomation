@@ -6,3 +6,15 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+tests/  
+# Ignore all test folders
+tests/
+playwright-report/
+test-results/
+
+# Ignore all .spec.js files
+**/*.spec.js
+
+# But keep testrewards
+!testrewards/
+!testrewards/**/*.spec.js
