@@ -1,0 +1,201 @@
+=========================================================
+PLAYWRIGHT AUTOMATION SETUP GUIDE
+=========================================================
+
+Project Name:
+Playwright Automation - Santa Browser Rewards
+
+Automation Tool:
+- Playwright
+
+Programming Language:
+- JavaScript
+
+Editor:
+- Visual Studio Code
+
+Operating System:
+- Windows 11
+
+=========================================================
+SOFTWARE REQUIRED
+=========================================================
+
+1. Install Node.js
+Download:
+https://nodejs.org/
+
+Verify Installation:
+node -v
+npm -v
+
+=========================================================
+INSTALL PLAYWRIGHT
+=========================================================
+
+Open Command Prompt or VS Code Terminal
+
+Create Project Folder
+
+mkdir PlaywrightAutomation
+cd PlaywrightAutomation
+
+Initialize Node Project
+
+npm init -y
+
+Install Playwright
+
+npm install -D @playwright/test
+
+Install Browsers
+
+npx playwright install
+
+Open Project in VS Code
+
+code .
+
+=========================================================
+PROJECT LOCATION
+=========================================================
+
+Project Path:
+
+C:\Users\DELL\OneDrive\Desktop\PlaywrightAutomation
+
+Open Terminal
+
+cd C:\Users\DELL\OneDrive\Desktop\PlaywrightAutomation
+
+=========================================================
+PROJECT STRUCTURE
+=========================================================
+
+PlaywrightAutomation
+│
+├── node_modules
+├── testrewards
+│   ├── category.spec.js
+│   ├── dailycheckin.spec.js
+│   ├── Dailyusage.spec.js
+│   ├── leaderboard.spec.js
+│   ├── myrewards.spec.js
+│   ├── referral.spec.js
+│   ├── spaces.spec.js
+│   └── Weeklyusage.spec.js
+│
+├── tests
+├── playwright.config.js
+├── package.json
+├── package-lock.json
+└── Notes.txt
+
+=========================================================
+USEFUL COMMANDS
+=========================================================
+
+Run All Tests
+
+npx playwright test
+
+Run Single Test
+
+npx playwright test testrewards/category.spec.js
+
+Run Tests in Headed Mode
+
+npx playwright test --headed
+
+Run Tests in Debug Mode
+
+npx playwright test --debug
+
+Show HTML Report
+
+npx playwright show-report
+
+=========================================================
+DEPENDENCIES USED
+=========================================================
+
+@playwright/test
+
+monocart-reporter
+
+chart.js
+
+open
+
+=========================================================
+GIT COMMANDS
+=========================================================
+
+Check Status
+
+git status
+
+Add Files
+
+git add .
+
+Commit Changes
+
+git commit -m "Updated Playwright Automation"
+
+Push to GitHub
+
+git push origin master
+
+Pull Latest Changes
+
+git pull origin master
+
+=========================================================
+PLAYWRIGHT CONFIGURATION
+=========================================================
+
+Language : JavaScript
+
+Framework : Playwright Test
+
+Reporter : HTML / Monocart Reporter
+
+Browser : Chromium
+
+Execution : Headless / Headed
+
+=========================================================
+AUTOMATED MODULES
+=========================================================
+
+✔ Rewards Category
+
+✔ Home Category
+
+✔ Daily Check-in
+
+✔ Daily Usage
+
+✔ Weekly Usage
+
+✔ Leaderboard
+
+✔ Referral
+
+✔ Spaces
+
+✔ My Rewards
+
+=========================================================
+AUTHOR
+=========================================================
+
+Project:
+Santa Browser Rewards Automation
+
+Framework:
+Playwright + JavaScript
+
+Version Control:
+Git & GitHub
